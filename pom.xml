@@ -79,6 +79,15 @@
 					</excludes>
 				</configuration>
 			</plugin>
+			<!-- # maven exec plugin for running main with custom configuration -->
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>3.0.0</version>
+				<configuration>
+					<mainClass>com.zahid.Application</mainClass>
+				</configuration>
+			</plugin>   
 		</plugins>
 	</build>
 
